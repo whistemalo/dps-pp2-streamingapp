@@ -1,1 +1,20 @@
-{"d":[{"i":{"height":2225,"imageUrl":"https://m.media-amazon.com/images/M/MV5BY2FkY2E1OTgtYmFhYi00NzczLThjYjktNDljN2ZiZGY4OGIzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg","width":1500},"id":"tt3907584","l":"All the Bright Places","q":"feature","qid":"movie","rank":5495,"s":"Elle Fanning, Justice Smith","y":2020}],"q":"violet%20y%20fich","v":1}
+{
+  "d": [
+    {
+      "i": {
+        "height": 2225,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BY2FkY2E1OTgtYmFhYi00NzczLThjYjktNDljN2ZiZGY4OGIzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "width": 1500
+      },
+      "id": "tt3907584",
+      "l": "All the Bright Places",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 5495,
+      "s": "Elle Fanning, Justice Smith",
+      "y": 2020
+    }
+  ],
+  "q": "violet%20y%20fich",
+  "v": 1
+}
