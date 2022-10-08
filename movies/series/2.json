@@ -1,1 +1,21 @@
-{"d":[{"i":{"height":1518,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg","width":1012},"id":"tt0903747","l":"Breaking Bad","q":"TV series","qid":"tvSeries","rank":23,"s":"Bryan Cranston, Aaron Paul","y":2008,"yr":"2008-2013"},{"i":{"height":1200,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNjk4MzVlM2UtZGM0ZC00M2M1LThkMWEtZjUyN2U2ZTc0NmM5XkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_.jpg","width":960},"id":"tt9243946","l":"El Camino: A Breaking Bad Movie","q":"feature","qid":"movie","rank":902,"s":"Aaron Paul, Jonathan Banks","y":2019},{"i":{"height":640,"imageUrl":"https://m.media-amazon.com/images/M/MV5BMDdlM2QzOGMtODc2My00NTFjLWIyZGUtYjQ4NDNhZjYyM2NkXkEyXkFqcGdeQXVyMDM0MzU2NA@@._V1_.jpg","width":440},"id":"tt2387761","l":"Breaking Bad: Original Minisodes","q":"TV series","qid":"tvSeries","rank":14982,"s":"Bob Odenkirk, Matt Jones","y":2009,"yr":"2009-2011"},{"i":{"height":1272,"imageUrl":"https://m.media-amazon.com/images/M/MV5BMTFjMzkzZDYtN2I0Mi00MzAyLTkxZjYtNzU4NDI5MjZkZjQzXkEyXkFqcGdeQXVyMzY5OTkzMjQ@._V1_.jpg","width":1476},"id":"tt12812846","l":"Breaking Bad: Breaking Ice","q":"video","qid":"video","rank":114365,"s":"Amr Abdulgalil, Bobby Beauchamp","y":2013},{"i":{"height":1440,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNjI0ZTRmNTEtYjVhMC00MTM0LWFjNDQtYjBhNTNlNWRlMDgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg","width":960},"id":"tt0075718","l":"The Bad News Bears in Breaking Training","q":"feature","qid":"movie","rank":31304,"s":"William Devane, Jackie Earle Haley","y":1977},{"i":{"height":707,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNzZlODUzY2UtYzU3My00M2EzLTgzOGUtNzlmZTQwNWE2MTVjXkEyXkFqcGdeQXVyMTQ0NjE2NTI@._V1_.jpg","width":1200},"id":"tt11828264","l":"Snow Globe: A Breaking Bad Short","q":"short","qid":"short","rank":91526,"s":"Jesse Plemons, Laura Fraser","y":2020},{"id":"tt3466772","l":"Jesse! The Breaking Bad Spin-Off","q":"short","qid":"short","rank":118436,"s":"Aaron Paul, Emily Rios","y":2013},{"i":{"height":330,"imageUrl":"https://m.media-amazon.com/images/M/MV5BNDcwYjM2OTEtMzg4NC00YjU5LTg4ZWMtNjcxYzU3Njc5OGU0XkEyXkFqcGdeQXVyMTIxMDUyOTI@._V1_.jpg","width":660},"id":"tt4135410","l":"Breaking Bad: The Middle School Musical","q":"video","qid":"video","rank":144683,"s":"Delaney Dillan, Logan Gould","y":2013}],"q":"breaking%20bad","v":1}
+{
+  "d": [
+    {
+      "i": {
+        "height": 1518,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
+        "width": 1012
+      },
+      "id": "tt0903747",
+      "l": "Breaking Bad",
+      "q": "TV series",
+      "qid": "tvSeries",
+      "rank": 23,
+      "s": "Bryan Cranston, Aaron Paul",
+      "y": 2008,
+      "yr": "2008-2013",
+      "ss":5
+    }
+  ]
+ 
+}
