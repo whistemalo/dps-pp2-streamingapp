@@ -11,7 +11,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Pelicula" component={PeliculaScreen} />
+        <Tab.Screen name="Peliculas" component={PeliculaScreen} />
         <Tab.Screen name="Series" component={SerieScreen} />
         <Tab.Screen name="Proximamente" component={ProximamenteScreen} />
       </Tab.Navigator>
