@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const SettingsScreen = () => {
+const SerieScreen = () => {
   return (
     <View className="flex-1 items-center justify-center bg-white">
-      <Text>SettingsScreen</Text>
+      <Text>SerieScreen</Text>
     </View>
   )
 }
 
-export default SettingsScreen
+export default SerieScreen

@@ -1,14 +1,14 @@
 import { Text, View } from 'react-native'
 import React, { Component } from 'react'
 
-export class HomeScreen extends Component {
+export class ProximamenteScreen extends Component {
   render() {
     return (
         <View className="flex-1 items-center justify-center bg-white">
-            <Text>HomeScreen</Text>
+            <Text>ProximamenteScreen</Text>
         </View>
     )
   }
 }
 
-export default HomeScreen
+export default ProximamenteScreen
