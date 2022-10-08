@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import PeliculaScreen from './Components/PeliculaScreen';
-import SerieScreen from './Components/SerieScreen';
-import ProximamenteScreen from './Components/ProximamenteScreen'
+import PeliculaScreen from './screens/PeliculaScreen';
+import SerieScreen from './screens/SerieScreen';
+import ProximamenteScreen from './screens/ProximamenteScreen'
 
 export default function App() {
   const Tab = createBottomTabNavigator();
