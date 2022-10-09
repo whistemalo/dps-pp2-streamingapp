@@ -14,7 +14,7 @@ const SerieScreen = () => {
           </View>
           <View>
             <Text className="text-lg mt-4 font-semibold text-center mx-4">Tendencias</Text>
-            <ListViewVertical data={series}/>
+            <ListViewVertical data={series.d}/>
           </View>         
       </ScrollView>
           
