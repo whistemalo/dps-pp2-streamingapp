@@ -6,16 +6,14 @@ const ListView = ({data,setReference}) => {
  console.log(data)
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity className="border items-center justify-center w-[100px] h-32 bg-slate-800 rounded-lg "
+    <TouchableOpacity className=" items-center justify-center w-[140px] h-56 bg-white rounded-lg "
     onPress={()=> setReference(item.rel)}>
-      <View className="relative flex w-[100px] items-center py-4">
-        <Image  className="w-full h-16 mb-2"  source={{
+      <View className="flex w-[140px] items-center py-4">
+        <Image  className="w-full h-52 mb-2"  source={{
           uri: item.i.imageUrl}}/>
-        <Text className="text-white  text-center mx-2">{item.l}</Text>
       </View>
     </TouchableOpacity>
   );
-
 
   return (
     <View className="mt-2 mr-3 ml-3 ">
