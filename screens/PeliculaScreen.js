@@ -1,36 +1,38 @@
-import { Text, View, Image, ScrollView} from 'react-native'
+import { Text, View, Image, ScrollView,SafeAreaView} from 'react-native'
 import React, { Component } from 'react'
+import ListView from '../Components/ListView'
+import * as comedia from '../movies/comedia.json';
+import * as accion from '../movies/accion.json';
+import * as romance from '../movies/romance.json';
 
-export class PeliculaScreen extends Component {
-  render() {
-    return (
-        <View className="flex-1 bg-white">
-          <View className=" items-center">
-            <Image className="w-96 h-52" source={require('../assets/streaming.jpg')}/>
+
+
+
+const PeliculaScreen = () => {
+
+  return (
+    <SafeAreaView className="flex  bg-white">
+      <ScrollView>
+      <View className=" items-center w-96 h-52">
+            {/* <Text className="text-red-500">tesadsada</Text> */}
+            <Image  className="w-96 h-52"  source={require('../assets/streaming.jpg')}/>
           </View>
           <View>
-            <Text className="text-lg font-semibold mt-6 mx-4">Comedia</Text>
-            <ScrollView horizontal>
-              <View>
-                <Image source={require('../assets/comedia/pelicula1.jpg')}/>
-              </View>
-              <View>
-                <Image source={require('../assets/comedia/pelicula2.jpg')}/>
-              </View>
-              <View>
-                <Image source={require('../assets/comedia/pelicula3.jpg')}/>
-              </View>
-              <View>
-                <Image source={require('../assets/comedia/pelicula4.jpg')}/>
-              </View>
-              <View>
-                <Image source={require('../assets/comedia/pelicula5.jpg')}/>
-              </View>
-            </ScrollView>
+            <Text className="text-lg mt-4 font-semibold  mx-4">Comedia</Text>
+            <ListView data={comedia}/>
           </View>
-        </View>
-    )
-  }
+          <View>
+            <Text className="text-lg mt-4 font-semibold  mx-4">Acción</Text>
+            <ListView data={accion}/>
+          </View>
+          <View>
+            <Text className="text-lg mt-4 font-semibold  mx-4">Romance</Text>
+            <ListView data={romance}/>
+          </View>
+      </ScrollView>
+          
+        </SafeAreaView>
+  )
 }
 
 export default PeliculaScreen
