@@ -1,14 +1,17 @@
-import { Text, View } from 'react-native'
-import React, { Component } from 'react'
+import { View, Text, SafeAreaView } from 'react-native'
+import React, { useEffect, useState } from 'react'
+import * as upcoming from '../movies/upcoming.json';
+import ListViewUpcoming from '../Components/ListViewUpcoming';
 
-export class ProximamenteScreen extends Component {
-  render() {
-    return (
-        <View className="flex-1 items-center justify-center bg-white">
-            <Text>ProximamenteScreen</Text>
-        </View>
-    )
-  }
+
+
+const ProximamenteScreen = () => {
+ 
+  return (
+    <SafeAreaView>
+      <ListViewUpcoming data={upcoming}/>
+    </SafeAreaView>
+  )
 }
 
 export default ProximamenteScreen

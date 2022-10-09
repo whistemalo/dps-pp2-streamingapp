@@ -2,8 +2,6 @@ import { View, Text,FlatList,Image,TouchableOpacity } from 'react-native'
 
 
 const ListView = ({data,setReference}) => {
-  
- console.log(data)
 
   const renderItem = ({ item }) => (
     <TouchableOpacity className=" items-center justify-center w-[140px] h-56 bg-white rounded-lg "

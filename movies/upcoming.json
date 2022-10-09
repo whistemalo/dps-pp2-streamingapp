@@ -1,0 +1,44 @@
+{
+    "movies": [
+      {
+        "id":"a1",
+       "name":"Prey for the Devil",
+       "release_date": "October 28 2022", 
+       "Director": "Daniel Stamm",
+       "video" : "u_jJiZ2oZgs",
+       "sinopsis" : "The Roman Catholic Church combats a global rise in demonic possessions by reopening schools to train priests to perform exorcisms. "
+      },
+      {
+        "id":"a2",
+       "name":"Black Panther: Wakanda Forever",
+       "release_date": " November 11, 2022", 
+       "Director": "Ryan Coogler",
+       "video" : "_Z3QKkl1WyM",
+       "sinopsis" : "Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T'Challa's death. "
+      },
+      {
+        "id":"a3",
+       "name":"Avatar: The Way of Water",
+       "release_date": "December 16, 2022", 
+       "Director": "James Cameron",
+       "video" : "a8Gx8wiNbs8",
+       "sinopsis" : "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora."
+      },
+      {
+        "id":"a4",
+       "name":"Halloween Ends",
+       "release_date": "October 14, 2022", 
+       "Director": "David Gordon Green",
+       "video" : "s0vtbxLa-N8",
+       "sinopsis" : "Four years after her last encounter with masked killer Michael Myers, Laurie Strode is living with her granddaughter and trying to finish her memoir."
+      },
+      {
+        "id":"a5",
+       "name":"The Super Mario Bros. Movie",
+       "release_date": "April 7, 2023", 
+       "Director": "Aaron Horvath, Michael Jelenic",
+       "video" : "KydqdKKyGEk",
+       "sinopsis" : "The Super Mario Bros. Movie is an upcoming computer-animated film based on Nintendo's Mario video game franchise, produced by Illumination in association with Nintendo and distributed by Universal Pictures. "
+      }
+    ]
+}
